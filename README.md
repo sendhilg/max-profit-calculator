@@ -11,7 +11,11 @@ To check the version on your machine run the below command:
     $ python --version
 
 ## Cloning the project and running the application
-Clone the project from github. Change into the project directory 'max_profit_calculator'.
+Clone the project from github.
+
+    $ git clone https://github.com/sendhilg/max-profit-calculator.git
+
+Change into the project directory 'max-profit-calculator'.
 
 Enter the below command to accept input from the command line and press the enter key:
 
@@ -46,7 +50,7 @@ pytest library is required for running the application's unit tests. Install pyt
     $ pip install pytest-cov
 
 ### Running unit tests
-Navigate to the repository and run the below command to execute the unit tests.
+Navigate to the project directory 'max-profit-calculator' and run the below command to execute the unit tests.
 
     $ pytest
 
